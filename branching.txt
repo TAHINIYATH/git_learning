@@ -1,0 +1,89 @@
+
+https://plum-poppy-0ea.notion.site/Branching-Exercise-b5460c881d56400cb046357d9a430bf8
+//Topic : Branching in git 
+//follow this link and find the solutiion here
+$ mkdir patronus
+$ cd patronus
+$ git init
+$ touch patronus.txt
+$ git commit -a -m " add empty patronus file"
+$ git branch harry
+$ git branch snape
+$ git switch harry
+$ start patronus.txt
+and paste this
+HARRY'S PATRONUS
+
+   /|       |\
+`__\\       //__'
+   ||      ||
+ \__`\     |'__/
+   `_\\   //_'
+   _.,:---;,._
+   \_:     :_/
+     |@. .@|
+     |     |
+     ,\.-./ \
+     ;;`-'   `---__________-----.-.
+     ;;;                         \_\
+     ';;;                         |
+      ;    |                      ;
+       \   \     \        |      /
+        \_, \    /        \     |\
+          |';|  |,,,,,,,,/ \    \ \_
+          |  |  |           \   /   |
+          \  \  |           |  / \  |
+           | || |           | |   | |
+           | || |           | |   | |
+           | || |           | |   | |
+           |_||_|           |_|   |_|
+          /_//_/           /_/   /_/
+          
+$ git commit -a -m "add harry's stag patronus"
+$ git switch snape
+$ start patronus.txt
+and remove the previous file and paste this 
+SNAPE'S PATRONUS
+                   .     _,
+                   |`\__/ /
+                   \  . .(
+                    | __T|
+                   /   |
+      _.---======='    |
+     //               {}
+    `|      ,   ,     {}
+     \      /___;    ,'
+      ) ,-;`    `\  //
+     | / (        ;||
+     ||`\\        |||
+     ||  \\       |||
+     )\   )\      )||
+     `"   `"      `""
+$ git add -a -m " add snape's doe patronus"
+$ git switch snape
+$ git branch lily
+$ git switch lily
+$ start patronus.txt
+remove the name snape's patronus and add lilys patronus instead and leave the patronus there
+
+lily'S PATRONUS
+                   .     _,
+                   |`\__/ /
+                   \  . .(
+                    | __T|
+                   /   |
+      _.---======='    |
+     //               {}
+    `|      ,   ,     {}
+     \      /___;    ,'
+      ) ,-;`    `\  //
+     | / (        ;||
+     ||`\\        |||
+     ||  \\       |||
+     )\   )\      )||
+     `"   `"      `""
+$ git commit -a -m "add lily's doe patronus"
+$ git branch 
+$ git branch -d "snape" / git branch -D "snape" / git branch --delete "snape"
+
+          
